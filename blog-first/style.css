@@ -1,0 +1,73 @@
+.container {
+    font-size: 15px;
+    text-align: center;
+    color:white;
+}
+
+.link {
+    text-underline-offset: unset;
+}
+
+.nav-links {
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: rgb(167, 209, 243);
+}
+
+.introduce h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.body {
+    text-align: left;
+    margin-left: 13px;
+}
+
+.full-body {
+    background-image: url("image/pic294907.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image-panel {
+    position: relative;
+}
+
+.image-panel img {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.text-panel 
+{
+    margin-left: 0;
+    width: 40%;
+}
+
+.button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+.button-left {
+    margin-right: auto;
+    top: 20px;
+    left: 20px;
+}
+
+.button-right {
+    margin-left: auto;
+    top: 20px;
+    right: 20px;
+}
