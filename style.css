@@ -47,6 +47,7 @@
     width: 100%;
     display: flex;
     align-items: stretch;
+    float: right;
 }
 .text-panel 
 {
