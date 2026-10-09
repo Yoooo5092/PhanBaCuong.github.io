@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<header>
+    <meta charset="utf-8">
+    <style>
+        .navbar__links {
+            height: 2.125rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-underline-offset: unset;
+            text-decoration: none;
+            background-color: rgb(230, 112, 16);
+            justify-content: right;
+            background-size: auto;
+        }
+        .navbar-wrapper .navbar__link {
+            cursor: pointer;
+        }
+        .navbar .navbar__link {
+            color: #fff;
+        }
+        .navbar__link--tappable {
+            cursor: pointer;
+            -webkit-user-select: none;
+            user-select: none;
+            
+        }
+        .navbar__link {
+            justify-content: center;
+            padding: 0 .625rem;
+            position: relative;
+            text-decoration: none;
+            color:white;
+        }
+        .navbar__link:hover {
+            color: rgb(248, 0, 0);
+        }
+        .navbar__link, .navbar__links {
+            align-items: center;
+            display: flex;
+            
+        }
+        .navbar__link--auth {
+            display: flex;
+        }
+        .navbar__link--help {
+            display: flex;
+        }
+         .breakcrumb {
+            list-style: none;
+            justify-content: center;
+        }
+        .breadcrumb li {
+            display: inline;
+        }
+        .breadcrumb li::before {
+            content: "/\00a0";
+        }
+        
+    </style>
+</header>
+
+<body>
+<ul class="navbar__links">
+    <li>
+        <a class="navbar__link" href="/user/notifications/order">notifications</a>
+    </li>
+
+    <li>
+        <a class="navbar__link" href="https://help.shopee.vn/vn/s">help</a>
+    </li>
+
+    <li>
+        <span class="navbar__link">English</span>
+                    
+    </li>
+    <li class="navbar__link--auth">
+        <a class="navbar__link navbar__link--signup " href="">Sign Up</a>
+        <div class="navbar__link-separator"></div>
+        <a class="navbar__link " href="">Login</a>
+    </li>
+</ul>  
+
+<ul class="breadcrumb">
+    <li><a href="#">Điện tử</a></li>
+    <li><a href="#">Máy tính</a></li>
+    <li><a href="#">Laptop</a></li>
+    <li>Dell</li>
+</ul>
+
+</body>
